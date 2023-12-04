@@ -3,6 +3,12 @@
 }
 
 .hed_bgk {
-    /* background-color: #941ee2a7; */
+    width: 1500px;
+    height: 450px;
+    background: linear-gradient(84deg, rgba(5, 245, 187, 0.83) 13.72%, rgba(245, 5, 192, 0.79) 97.25%);
 
+}
+
+.log {
+    color: white;
 }
