@@ -29,10 +29,11 @@ body {
 
 
 .we {
-    padding-top: 55px;
+    padding-top: 80px;
     color: white;
     font-size: 40px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .navigation__list {
@@ -89,6 +90,7 @@ body {
     font-size: 20px;
     text-align: start;
 }
+
 .sec_text {
     padding: 15px;
 }
@@ -101,22 +103,34 @@ body {
     padding: 20PX;
     margin-left: 20P;
     width: 500px;
-    height: 400px; 
+    height: 400px;
     text-align: center;
 
     border-radius: 54px;
     background-color: #545454;
 }
 
-.posit {
- /* max-width: 200px; */
+.absol {
+    position: absolute;
 }
 
+.posit {
+flex-shrink: 0;
+    border-radius: 199px;
+    background: rgba(255, 187, 84, 0.597);
+    filter: blur(31px);
+    /* max-width: 200px; */
+}
+
+.psoit2{
+background: rgba(5, 237, 252, 0.45);;
+}
 .sec_img {
     margin-top: 9px;
 }
 
 .three {
+    background: rgba(67, 245, 5, 0.45);
     margin-top: 9px;
 }
 
@@ -133,5 +147,5 @@ body {
 .cards {
     display: flex;
     gap: 30px;
+    padding-bottom: 180px
 }
-

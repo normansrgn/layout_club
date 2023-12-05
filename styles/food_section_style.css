@@ -1,0 +1,74 @@
+.food_card {
+    width: 400px;
+    height: 521px;
+    border-radius: 48px;
+    background-color: #2D2D2D;
+}
+
+.food_text {
+    color: white;
+    text-align: center;
+
+    font-size: 37px;
+    padding-top: 28px;
+}
+
+.list_food_card {
+    font-size: 29px;
+    color: white;
+    text-align: start;
+    margin-left: -75px;
+    color: #B3B1B1;
+}
+
+.food_sec_text {
+    font-size: 30px;
+    color: white;
+    text-align: start;
+    color: #B3B1B1;  
+}
+
+.food_ps {
+    display: flex;
+}
+.ps_food {
+position: absolute;
+
+    width: 235px;
+   /* padding-right: -60px; */
+}
+
+.blur_ps {
+background: #05EDFC;
+position: relative;
+filter: blur(150px);
+width: 255px;
+margin-top: 10px;
+
+}
+
+.burger_food {
+    margin-left: -509px;
+    /* padding-right: 163px; */
+    align-items: center;
+    position: absolute;
+    margin-top: 48px;
+    width: 608px;
+    /* margin-right: 90px; */
+    margin-top: -48px;
+}
+
+.food_blur {
+    border-radius: 420px;
+background: rgba(67, 245, 5, 0.70);
+filter: blur(125px);
+
+position: relative;
+filter: blur(150px);
+width: 290px;
+margin-left: 66px;    
+}
+
+.burger_card {
+    margin-right: -300px;
+}
