@@ -3,8 +3,16 @@
     height: 521px;
     border-radius: 48px;
     background-color: #2D2D2D;
+    
 }
 
+.offset2 {
+    margin-left: -2px;
+}
+.pad{
+    gap: 90px;
+    margin-right: 70px;
+}
 .food_text {
     color: white;
     text-align: center;
@@ -42,7 +50,7 @@ position: absolute;
 background: #05EDFC;
 position: relative;
 filter: blur(150px);
-width: 255px;
+width: 169px;
 margin-top: 10px;
 
 }
@@ -72,3 +80,31 @@ margin-left: 66px;
 .burger_card {
     margin-right: -300px;
 }
+
+.pc_food {
+    margin-top: -75px;
+    margin-left: 80px;
+    /* margin-right: 50px; */
+    position: absolute;
+}
+
+.food_pc {
+    
+    display: flex;
+}
+
+.pc_list {
+    margin-left: -29px;
+
+}
+
+.blur_pc {
+    position: absolute;
+    border-radius: 439px;
+    background: #931EE2;
+    filter: blur(125px);
+    width: 255px;
+    margin-top: 146px;
+    margin-left: 77px;
+    
+    }
