@@ -1,10 +1,72 @@
-.promo {
-    padding-top: 350px;
+.card_blank {
+    width: 662px;
+    height: 220px;
+    margin-left: 294px;
+    margin-top: 60px;
+    padding: 36px;
+    border-radius: 28px;
+    background: rgba(217, 217, 217, 0.10);
 }
 
-.cart_promo {
-    background-color: #D9D9D9;
-    width: 550px;
+.promo_img {
+    margin-left: -82px;
+}
+
+]
+
+.flex {
+    gap: 350px;
+}
+
+.promo_card_text {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: start;
+}
+
+.card_blank_small {
+    width: 320px;
     height: 220px;
-    /* margin-left: 100px; */
+    margin-left: 743px;
+    margin-top: -490px;
+    border-radius: 28px;
+    background: rgba(217, 217, 217, 0.10);
+
+
+}
+
+.card_small_text {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.ins_text {
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-left: 43px;
+    gap: 30px;
+}
+
+.btm_promo_dv {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.btm_promo:hover{
+    background: rgba(249, 153, 10, 0.60);
+    transition: 0.3s;
+}
+
+.btm_promo {
+    transition: 0.3s;
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 24px;
+    color: white;
+    background: rgba(5, 237, 252, 0.60);
 }
