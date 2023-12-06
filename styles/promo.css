@@ -1,18 +1,22 @@
 .card_blank {
     width: 662px;
     height: 220px;
-    margin-left: 294px;
+    margin-left: -51px;
     margin-top: 60px;
     padding: 36px;
     border-radius: 28px;
     background: rgba(217, 217, 217, 0.10);
 }
 
+.promo {
+    padding-top: 450px;
+}
+
 .promo_img {
     margin-left: -82px;
 }
 
-]
+
 
 .flex {
     gap: 350px;

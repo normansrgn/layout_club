@@ -25,7 +25,7 @@
     font-size: 29px;
     color: white;
     text-align: start;
-    margin-left: -75px;
+    margin-left: 7px;
     color: #B3B1B1;
 }
 
@@ -41,9 +41,9 @@
 }
 .ps_food {
 position: absolute;
-
+    
     width: 235px;
-   /* padding-right: -60px; */
+   /* padding-right:  */
 }
 
 .blur_ps {
@@ -82,7 +82,7 @@ margin-left: 66px;
 }
 
 .pc_food {
-    margin-top: -75px;
+    margin-top: -97px;
     margin-left: 80px;
     /* margin-right: 50px; */
     position: absolute;
