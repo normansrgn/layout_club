@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Monterstart_medium';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_Light';
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+.navigation__item {
+    font-family: "Monterstart_medium" ;
+}
+
+.lable_text {
+    font-family: "Monterstart_medium" ;
+}
+
+
+.log {
+    font-family: "Monterstart_medium" ;
+
+}
+
+.we {
+    font-family: "Montserrat_Light" ;
+
+}
+
+.contact_card {
+    font-family: "Montserrat_Light" ;
+
+}
+
+.food_text {
+    font-family: "Monterstart_medium" ;
+
+}
+
+.list_food_card {
+    font-family: "Montserrat_Light" ;
+
+}
+
+.food_sec_text {
+    font-family: "Montserrat_Light" ;
+
+}
+
+.promo {
+    font-family: "Montserrat_Light" ;
+
+}
+
+.foot_hed {
+    font-family: 'Monterstart_medium' ;
+}
+
+
+.footer_card {
+    font-family: "Montserrat_Light" ;
+
+}
