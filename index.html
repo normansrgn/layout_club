@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/food_section_style.css">
     <link rel="stylesheet" href="./styles/promo.css">
     <link rel="stylesheet" href="./styles/footer_style.css">
+    <link rel="stylesheet" href="./styles/reviews_style.css">
     <title>Document</title>
 </head>
 
@@ -27,11 +28,11 @@
                         <nav class="nav">
                             <ul class="navigation__list">
                                 <li class='navigation__item'><a class='navigation__link' href="./">Главная</a></li>
-                                <li class='navigation__item'><a class='navigation__link' href="#menu">Отзывы</a></li>
-                                <li class='navigation__item'><a class='navigation__link' href="./tovars.html">Товары</a>
+                                <li class='navigation__item'><a class='navigation__link' href="#revblock">Отзывы</a></li>
+                                <li class='navigation__item'><a class='navigation__link' href="#tovars">Товары</a>
                                 </li>
                                 <li class='navigation__item'><a class='navigation__link'
-                                        href="/community.html">Контакты</a></li>
+                                        href="#contacts">Контакты</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -95,7 +96,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-4 offset2">
-                        <div class="food_card">
+                        <div id="tovars" class="food_card">
                             <p class="food_text">Приставки</p>
                             <div class="food_ps">
                                 <img src="./food/ps.png" alt="" class="blur_ps">
@@ -193,9 +194,24 @@
                 </div>
             </div>
         </section>
+        <section  class="reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+                        <div  class="reviews_card" >
+                            <img id="revblock"  class="reviews_list" src="./reviews/reviews.png" alt="">
+                            <img  class="reviews_list" src="./reviews/reviews_2.png" alt="">
+                            <img class="reviews_list" src="./reviews/reviews_3.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer class="foot_sect">
-        <div class="foot_hed">Наши контакты</div>
+        <div id="contacts" class="foot_hed">Наши контакты</div>
         <div class="container">
             <div class="row">
                 <div class="col-9">
